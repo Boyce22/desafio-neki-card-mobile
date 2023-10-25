@@ -70,21 +70,21 @@
 - [Delete Modal](#delete-modal)
 
 ### Login Screen
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790365324521624/Screenshot_1698254561.png" width="300" height="300" alt="Login Screen Screenshot">
+<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790365324521624/Screenshot_1698254561.png" width="300" height="450" alt="Login Screen Screenshot">
 
 ### Registro Screen
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790365743943770/Screenshot_1698254566.png" width="300" height="300" alt="Registro Screen Screenshot">
+<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790365743943770/Screenshot_1698254566.png" width="300" height="450" alt="Registro Screen Screenshot">
 
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790366616367154/Screenshot_1698254641.png" width="300" height="300" alt="Registro Screen Screenshot">
+<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790366616367154/Screenshot_1698254641.png" width="300" height="450" alt="Registro Screen Screenshot">
 
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790367362961418/Screenshot_1698254683.png" width="300" height="300" alt="Registro Screen Screenshot">
+<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790367362961418/Screenshot_1698254683.png" width="300" height="450" alt="Registro Screen Screenshot">
 
 ### Home Screen
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790367920795790/Screenshot_1698254733.png" width="300" height="300" alt="Home Screen Screenshot">
+<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790367920795790/Screenshot_1698254733.png" width="300" height="450" alt="Home Screen Screenshot">
 
 ### Logout Screen
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790368310857758/Screenshot_1698254739.png" width="300" height="300" alt="Logout Screen Screenshot">
+<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790368310857758/Screenshot_1698254739.png" width="300" height="450" alt="Logout Screen Screenshot">
 
 ### Delete Modal
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790368726110360/Screenshot_1698254746.png" width="300" height="300" alt="Delete Modal Screenshot">
+<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790368726110360/Screenshot_1698254746.png" width="300" height="450" alt="Delete Modal Screenshot">
 
