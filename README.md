@@ -64,7 +64,7 @@
 ## Screenshots
 
 - [Login Screen](#login-screen)  
-- [Registro Screen](#registro-screen)
+- [Register Screen](#register-screen)
 - [Home Screen](#home-screen)
 - [Logout Screen](#logout-screen)
 - [Delete Modal](#delete-modal)
@@ -72,7 +72,7 @@
 ### Login Screen
 <img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790365324521624/Screenshot_1698254561.png" width="225" height="450" alt="Login Screen Screenshot">
 
-### Registro Screen
+### Register Screen
 <img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790365743943770/Screenshot_1698254566.png" width="225" height="450" alt="Registro Screen Screenshot">
 
 <img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790366616367154/Screenshot_1698254641.png" width="225" height="450" alt="Registro Screen Screenshot">
