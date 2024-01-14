@@ -1,5 +1,5 @@
 ![image](https://github.com/Boyce22/desafio-neki-card-mobile/assets/108186353/9e85151c-ad99-40e0-858f-9afa234ea2e1)
-# Desafio NekiCard - React Native - TypeScript
+# Desafio NekiCard - React Native - TypeScript - 2 dias para desenvolvimento.
 
 #### O aplicativo móvel Neki Card Mobile é uma interface para acessar e interagir com a API Neki Card, que gerencia informações de colaboradores em uma organização. Este aplicativo permite que os usuários visualizem, cadastrem, atualizem e excluam informações de colaboradores de forma conveniente e eficaz.
 
