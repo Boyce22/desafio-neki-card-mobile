@@ -1,4 +1,4 @@
-
+![image](https://github.com/Boyce22/desafio-neki-card-mobile/assets/108186353/9e85151c-ad99-40e0-858f-9afa234ea2e1)
 # Desafio NekiCard - React Native - TypeScript
 
 #### O aplicativo móvel Neki Card Mobile é uma interface para acessar e interagir com a API Neki Card, que gerencia informações de colaboradores em uma organização. Este aplicativo permite que os usuários visualizem, cadastrem, atualizem e excluam informações de colaboradores de forma conveniente e eficaz.
@@ -70,21 +70,21 @@
 - [Delete Modal](#delete-modal)
 
 ### Login Screen
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790365324521624/Screenshot_1698254561.png" width="225" height="450" alt="Login Screen Screenshot">
+<img src="https://i.imgur.com/6jPMkgj.png" width="225" height="450" alt="Login Screen Screenshot">
 
 ### Register Screen
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790365743943770/Screenshot_1698254566.png" width="225" height="450" alt="Registro Screen Screenshot">
+<img src="https://i.imgur.com/qZejSvo.png" width="225" height="450" alt="Registro Screen Screenshot">
 
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790366616367154/Screenshot_1698254641.png" width="225" height="450" alt="Registro Screen Screenshot">
+<img src="https://i.imgur.com/NcqEE9e.png" width="225" height="450" alt="Registro Screen Screenshot">
 
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790367362961418/Screenshot_1698254683.png" width="225" height="450" alt="Registro Screen Screenshot">
+<img src="https://i.imgur.com/gzNXqPD.png" width="225" height="450" alt="Registro Screen Screenshot">
 
 ### Home Screen
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790367920795790/Screenshot_1698254733.png" width="225" height="450" alt="Home Screen Screenshot">
+<img src="https://i.imgur.com/tpjRxmE.png" width="225" height="450" alt="Home Screen Screenshot">
 
 ### Logout Screen
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790368310857758/Screenshot_1698254739.png" width="225" height="450" alt="Logout Screen Screenshot">
+<img src="https://i.imgur.com/6jPMkgj.png" width="225" height="450" alt="Logout Screen Screenshot">
 
 ### Delete Modal
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790368726110360/Screenshot_1698254746.png" width="225" height="450" alt="Delete Modal Screenshot">
+<img src="https://i.imgur.com/4MAZ3TR.png" width="225" height="450" alt="Delete model Screenshot">
 
