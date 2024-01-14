@@ -4,7 +4,6 @@
 #### O aplicativo móvel Neki Card Mobile é uma interface para acessar e interagir com a API Neki Card, que gerencia informações de colaboradores em uma organização. Este aplicativo permite que os usuários visualizem, cadastrem, atualizem e excluam informações de colaboradores de forma conveniente e eficaz.
 
 
-
 ## Index
 
 - [Cadastro de Colaborador](#cadastro-de-colaborador)
