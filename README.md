@@ -1,90 +1,103 @@
+# Desafio NekiCard - React Native - TypeScript 🚀  
 
-# Desafio NekiCard - React Native - TypeScript
+### Um aplicativo de gerenciamento de colaboradores focado em funcionalidades como cadastro, login, atualização e exclusão de usuários, utilizando tecnologias modernas e uma interface intuitiva.  
 
-#### O aplicativo móvel Neki Card Mobile é uma interface para acessar e interagir com a API Neki Card, que gerencia informações de colaboradores em uma organização. Este aplicativo permite que os usuários visualizem, cadastrem, atualizem e excluam informações de colaboradores de forma conveniente e eficaz.
+---
 
+## ⚙️ Funcionalidades  
 
+### ✍️ **Cadastro de Colaborador**  
+- Registro de novos colaboradores através de um formulário simples e intuitivo.  
+- Envio de requisição para o endpoint **`/signUp`**.  
 
-## Index
+### 🔑 **Login**  
+- Autenticação de usuários utilizando **e-mail** e **senha**.  
+- Envio de credenciais para obtenção de **acesso seguro** ao sistema.  
 
-- [Cadastro de Colaborador](#cadastro-de-colaborador)
-- [Login](#login)  
-- [Atualização de Colaborador](#atualização-de-colaborador)
-- [Delete de Colaborador](#delete-de-colaborador)
-- [Recursos](#recursos)
-- [Documentação de cores](#documentação-de-cores)
-- [Categorias](#categories)  
-### Funcionalidades Principais
-#### Cadastro de Colaborador
-- Descrição: Permite o registro de novos colaboradores no sistema.
-- Como funciona: Os usuários podem preencher os detalhes do novo colaborador, como nome, email sendo necessário o uso do domínio da Neki-it,  e outras informações necessárias. O aplicativo envia uma solicitação POST para o endpoint /signUp da API para adicionar o novo colaborador.
-#### Login
-- Descrição: Permite que os usuários autentiquem sua identidade para acessar o sistema.
-- Como funciona: Os usuários fornecem suas credenciais de login, como email e senha. O aplicativo envia uma solicitação de login para a API, que verifica as credenciais. Se as credenciais estiverem corretas, o usuário é autenticado e pode acessar as funcionalidades do adminstrador.
-#### Atualização de Colaborador
-- Descrição: Possibilita a atualização dos detalhes de um colaborador já registrado.
-- Como funciona: Os usuários autenticados podem editar os detalhes de um colaborador, incluindo campos opcionais que podem ser deixados em branco. O aplicativo envia uma solicitação PUT para o endpoint /update/{id} da API, com os dados atualizados do colaborador. A API está preparada para receber valores vazios, o que significa que os campos não obrigatórios podem ser atualizados sem a necessidade de preenchê-los.
-#### Delete de Colaborador
-- Descrição: Altera o estado isActive da entidade Collaborator para false.
-- Como funciona: Usuários autenticados podem alterar os detalhes de um colaborador. O aplicativo envia uma solicitação DELETE para o endpoint /delete/{id} da API, indicando o ID do colaborador a ser excluído. A API altera o estado isActive do colaborador para false,
+### ✏️ **Atualização de Colaborador**  
+- Edição das informações de colaboradores cadastrados.  
+- Ação realizada via requisição **`PUT`** ao endpoint **`/update/{id}`**.  
 
-### Recursos
-#### O aplicativo Neki Card Mobile utiliza diversas bibliotecas e dependências para fornecer funcionalidades. Aqui estão algumas das principais bibliotecas utilizadas:
+### ❌ **Exclusão de Colaborador**  
+- Colaboradores podem ser desativados definindo seu status **`isActive`** como **`false`**.  
+- A exclusão é realizada via requisição ao endpoint **`/delete/{id}`**.  
 
-- Expo: Uma plataforma para construir aplicativos móveis usando JavaScript e React Native.
-- React Navigation: Uma biblioteca de roteamento e navegação para React Native.
-- Axios: Uma biblioteca para fazer requisições HTTP à API.
-- Styled Components: Uma biblioteca para estilização de componentes.
-- React Hook Form: Uma biblioteca para gerenciamento de formulários.
-- React Native Vector Icons: Ícones vetoriais customizáveis para aplicativos React Native.
-## Documentação de cores
+---
 
-| Cor               | Hexadecimal                                                |
-| ----------------- | ---------------------------------------------------------------- |
-| Black 700       | ![#121212](https://via.placeholder.com/10/121212?text=+) #121212 |
-| Black 1000       | ![#010101](https://via.placeholder.com/10/010101?text=+) #010101 |
-| Blue Facebook       | ![#0866FF](https://via.placeholder.com/10/0866FF?text=+) #0866FF |
-| Blue Linkedin       | ![#378FE9](https://via.placeholder.com/10/378FE9?text=+) #378FE9 |
-| Pink Instagram       | ![#DD2A7B](https://via.placeholder.com/10/DD2A7B?text=+) #DD2A7B |
-| White      | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
-| Gray 200      | ![#e5e7eb](https://via.placeholder.com/10/e5e7eb?text=+) #e5e7eb |
-| Green 400      | ![#4ade80](https://via.placeholder.com/10/4ade80?text=+) #4ade80 |
-| Green 600       | ![#059669](https://via.placeholder.com/10/059669?text=+) #059669 |
-| Green 700       | ![#047857](https://via.placeholder.com/10/047857?text=+) #047857 |
-| Green 900      | ![#052e16](https://via.placeholder.com/10/052e16?text=+) #052e16 |
-| Red 500       | ![#ef4444](https://via.placeholder.com/10/ef4444?text=+) #ef4444 |
-| Red 600       | ![#dc2626](https://via.placeholder.com/10/dc2626?text=+) #dc2626 |
-| Zinc     | ![#F8F9FA](https://via.placeholder.com/10/F8F9FA?text=+) #F8F9FA |
-| Neutral 700       | ![#212121](https://via.placeholder.com/10/212121?text=+) #212121 |
-| Neutral 800       | ![#313131](https://via.placeholder.com/10/313131?text=+) #313131 |
-| Neutral 900       | ![#202020](https://via.placeholder.com/10/202020?text=+) #202020 |
+## 🛠️ Tecnologias Utilizadas  
 
+### 📱 **Principais Ferramentas**  
 
+- [**Expo**](https://expo.dev/) 🌟: Plataforma para desenvolvimento ágil em React Native.  
+- [**React Navigation**](https://reactnavigation.org/) 🧭: Biblioteca para navegação entre telas.  
+- [**Axios**](https://axios-http.com/) 🌐: Realização de requisições HTTP e comunicação com APIs.  
+- [**Styled Components**](https://styled-components.com/) 🎨: Estilização dinâmica e componentes personalizados.  
+- [**React Hook Form**](https://react-hook-form.com/) 📋: Gerenciamento de formulários com validações simplificadas.  
+- [**Vector Icons**](https://github.com/oblador/react-native-vector-icons) 🎯: Conjunto de ícones customizáveis para melhorar a interface do usuário.  
 
-## Screenshots
+---
 
-- [Login Screen](#login-screen)  
-- [Register Screen](#register-screen)
-- [Home Screen](#home-screen)
-- [Logout Screen](#logout-screen)
-- [Delete Modal](#delete-modal)
+## 📸 Telas e Funcionalidades  
 
-### Login Screen
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790365324521624/Screenshot_1698254561.png" width="225" height="450" alt="Login Screen Screenshot">
+### 🖼️ **Screenshots Principais**  
 
-### Register Screen
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790365743943770/Screenshot_1698254566.png" width="225" height="450" alt="Registro Screen Screenshot">
+1. **Login Screen**  
+   <img src="https://i.imgur.com/6jPMkgj.png" width="200">  
+   Tela de autenticação com campos de **e-mail** e **senha**, além de validações úteis.  
 
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790366616367154/Screenshot_1698254641.png" width="225" height="450" alt="Registro Screen Screenshot">
+2. **Registro de Colaborador**  
+   <img src="https://i.imgur.com/qZejSvo.png" width="200">  
+   <img src="https://i.imgur.com/gzNXqPD.png" width="200">  
+   Registro simples e eficiente para novos colaboradores no sistema.  
 
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790367362961418/Screenshot_1698254683.png" width="225" height="450" alt="Registro Screen Screenshot">
+3. **Home / Dashboard**  
+   <img src="https://i.imgur.com/tpjRxmE.png" width="200">  
+   Tela inicial exibindo os **colaboradores cadastrados**, com acesso às principais funcionalidades.  
 
-### Home Screen
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790367920795790/Screenshot_1698254733.png" width="225" height="450" alt="Home Screen Screenshot">
+4. **Logout**  
+   <img src="https://i.imgur.com/6jPMkgj.png" width="200">  
+   Tela de logout para sair do aplicativo com segurança.  
 
-### Logout Screen
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790368310857758/Screenshot_1698254739.png" width="225" height="450" alt="Logout Screen Screenshot">
+5. **Modal de Exclusão**  
+   <img src="https://i.imgur.com/4MAZ3TR.png" width="200">  
+   Confirmação visual para a ação de exclusão de um colaborador.  
 
-### Delete Modal
-<img src="https://cdn.discordapp.com/attachments/1082756709942054936/1166790368726110360/Screenshot_1698254746.png" width="225" height="450" alt="Delete Modal Screenshot">
+---
 
+## 🚀 Iniciando o Projeto  
+
+### 📂 **Clone o Repositório**  
+
+```bash  
+git clone https://github.com/seu-repositorio/neki-card-app.git  
+```  
+
+### 📥 **Instale as Dependências**  
+
+Certifique-se de instalar todas as dependências necessárias usando o npm ou yarn:  
+
+```bash  
+npm install  
+# ou  
+yarn install  
+```  
+
+### ▶️ **Inicie o Ambiente de Desenvolvimento**  
+
+Para iniciar o aplicativo, utilize o comando:  
+
+```bash  
+expo start  
+```  
+
+Isso abrirá um painel no navegador, onde você pode rodar o app no **emulador** ou escanear o QR Code em um dispositivo físico.  
+
+---
+
+## 📝 Notas Adicionais  
+
+- **Configuração da API**: Certifique-se de editar a URL da API no arquivo responsável por realizar requisições, como `axios.ts`.  
+- **Testes com Endpoints**: Utilize ferramentas como **Postman** para validar os endpoints enquanto desenvolve o aplicativo.  
+- **Personalização de Ícones e Cores**: Aproveite o **Styled Components** para modificar temas e criar designs únicos.  
+
+Com este guia simples, você estará pronto para rodar o aplicativo **NekiCard** e explorar todo o seu potencial! 🚀  
